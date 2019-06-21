@@ -1,0 +1,12 @@
+package dao;
+
+import bean.Sale;
+
+import java.util.List;
+
+public interface Sale_Impl {
+    List<Sale> selectAll();
+    int deleteOne(Sale sale);
+    Sale selectOne(Sale sale);
+    int updateOne(Sale sale);
+}
