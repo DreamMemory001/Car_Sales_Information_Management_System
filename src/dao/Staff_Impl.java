@@ -11,4 +11,7 @@ public interface Staff_Impl {
     int insertOne(Staff staff);
     Staff selectOne(Staff staff);
     int updateOne(Staff staff);
+    List<Staff> contain(String ser1);
+    List<Staff> contain2(String ser2);
+
 }

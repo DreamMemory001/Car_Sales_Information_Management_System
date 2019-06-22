@@ -139,14 +139,14 @@
 
 <div id="container">
     <div class="search bar1">
-        <form action="Servlet_Car_Contain" method="get">
-            <input type="text" placeholder="请输入您要搜索的内容..." name="ser">
+        <form action="Servlet_Staff_Contain" method="get">
+            <input type="text" placeholder="请输入您要搜索的内容..." name="ser" id="ser">
             <button type="submit" ></button>
             <div align="center" class="sel">
                 <label >
-                    <select name="row" >
+                    <select name="row" id="row">
                         <option >员工地址</option>
-                        <option >员工手机号</option>
+                        <option >员工电话</option>
                     </select>
                 </label>
             </div>

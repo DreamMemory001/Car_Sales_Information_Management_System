@@ -1,16 +1,15 @@
 <%@ page import="bean.Staff" %>
-<%@ page import="bean.Car" %>
 <%@ page import="java.util.List" %><%--
   Created by IntelliJ IDEA.
   User: XuChao
-  Date: 2019/6/21
-  Time: 14:37
+  Date: 2019/6/22
+  Time: 16:19
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>员工信息展示</title>
+    <title>员工查询显示页</title>
     <style type="text/css">
         #box-table-a
         {
@@ -119,49 +118,21 @@
         }
         select::-ms-expand { display: none; }
 
-        .sel{
-            position:relative;
-            top: 10px;
-        }
-        .button{
-            width: 60px;
-            height: 30px;
-            border-radius: 5px 5px 5px 5px;
-            background: #7BA7AB;
-            font-size: 15px;
-        }
+
 
 
     </style>
 </head>
 <body>
+<div align="center">
+    <h2>
+        员工信息查询显示页
+    </h2>
+</div>
+
 
 
 <div id="container">
-    <div class="search bar1">
-        <form action="Servlet_Staff_Contain" method="get">
-            <input type="text" placeholder="请输入您要搜索的内容..." name="ser" id="ser">
-            <button type="submit" ></button>
-            <div align="center" class="sel">
-                <label >
-                    <select name="row" id="row">
-                        <option >员工地址</option>
-                        <option >员工电话</option>
-                    </select>
-                </label>
-            </div>
-
-
-
-        </form>
-    </div>
-
-    <form action="Staff_Insert.jsp" method="post">
-        <div align="center">
-            添加员工信息：<input align="center" type="submit" class="button" value="增加">
-
-        </div>
-    </form>
 
     <table id="box-table-a" summary="Employee Pay Sheet">
         <thead>
@@ -179,7 +150,7 @@
         <tbody>
         <%
 
-            List<Staff> list = (List<Staff>) request.getAttribute("list");
+            List<Staff> list = (List<Staff>) request.getAttribute("list2");
             for (Staff staff: list){
         %>
         <tr>
@@ -199,7 +170,6 @@
     </table>
 
 </div>
-
 
 </body>
 </html>

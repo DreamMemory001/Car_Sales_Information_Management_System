@@ -93,5 +93,57 @@ public class StaffDao implements Staff_Impl {
 
     }
 
+    @Override
+    public List<Staff> contain(String ser1) {
+        ResultSet rs = null;
+        List<Staff> list = new ArrayList<>();
+        String sql = "select * from staff where staadress like ?";
+        Connection conn = DBUtil.getConnection();
+        try{
+            PreparedStatement pst = conn.prepareStatement(sql);
+//            pst.setString(1,row);
+            pst.setString(1,"%"+ser1+"%");
+            rs = pst.executeQuery();
+            while(rs.next()){
+                Staff staff = new Staff();
+                staff.setSta_id(rs.getString("staid"));
+                staff.setSta_name(rs.getString("staname"));
+                staff.setSta_sex(rs.getString("stasex"));
+                staff.setSta_adress(rs.getString("staadress"));
+                staff.setSta_phoneNumber(rs.getString("staphonum"));
+                list.add(staff);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return list;
+    }
+
+    @Override
+    public List<Staff> contain2(String ser2) {
+        ResultSet rs = null;
+        List<Staff> list = new ArrayList<>();
+        String sql = "select * from staff where staphonum like ?";
+        Connection conn = DBUtil.getConnection();
+        try{
+            PreparedStatement pst = conn.prepareStatement(sql);
+//            pst.setString(1,row);
+            pst.setString(1,"%"+ser2+"%");
+            rs = pst.executeQuery();
+            while(rs.next()){
+                Staff staff = new Staff();
+                staff.setSta_id(rs.getString("staid"));
+                staff.setSta_name(rs.getString("staname"));
+                staff.setSta_sex(rs.getString("stasex"));
+                staff.setSta_adress(rs.getString("staadress"));
+                staff.setSta_phoneNumber(rs.getString("staphonum"));
+                list.add(staff);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return list;
+    }
+
 
 }

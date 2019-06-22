@@ -24,24 +24,22 @@ public class Servlet_Car_Contain extends HttpServlet {
         request.setCharacterEncoding("UTF-8");
         String row = request.getParameter("row");
         String ser = request.getParameter("ser");
-
-        if(row.equals("汽车类型")){
-            row = "cartype";
-        }else if(row.equals("汽车品牌")){
-            row = "carbrand";
-
-        }
-        System.out.println(row);
-        System.out.println(ser);
-        CarDao search = new CarDao();
         List<Car> list1 = new ArrayList<>();
-        list1 = search.contain(ser,row);
+        CarDao contain = new CarDao();
+        if(row.equals("汽车类型")){
+            list1 = contain.contain(ser);
+        }else if(row.equals("汽车品牌")){
+            list1 = contain.contain2(ser);
+        }
+        request.setAttribute("list1", list1);
        if (list1 == null){
            System.out.println(88888);
        }else {
+           request.getRequestDispatcher("Car_Contain.jsp").forward(request,response);
            System.out.println(520);
+           System.out.println(list1.size());
        }
-        request.setAttribute("list1", list1);
-        request.getRequestDispatcher("Car_Contain.jsp").forward(request,response);
+
+
     }
 }

@@ -97,17 +97,14 @@ public class CarDao implements Car_Impl {
     }
 
     @Override
-    public List<Car> contain(String ser, String row) {
+    public List<Car> contain(String ser1) {
         ResultSet rs = null;
         Connection conn = DBUtil.getConnection();
-        String sql = "select * from car where ? like ?;";
+        String sql = "select * from car where cartype like ?;";
         List<Car> list = new ArrayList<>();
         try {
             PreparedStatement pst = conn.prepareStatement(sql);
-            pst.setString(1, row);
-            pst.setString(2,"%"+ser+"%");
-
-
+            pst.setString(1,"%"+ser1+"%");
             rs = pst.executeQuery();
             while (rs.next()){
                 Car car1 = new Car();
@@ -120,17 +117,38 @@ public class CarDao implements Car_Impl {
                 list.add(car1);
             }
 
-
-
-
-            System.out.println("hh"+row);
-            System.out.println(ser);
-
         } catch (SQLException e) {
             e.printStackTrace();
         }
         return list;
 
+    }
+
+    @Override
+    public List<Car> contain2(String ser2) {
+        ResultSet rs = null;
+        Connection conn = DBUtil.getConnection();
+        String sql = "select * from car where carbrand like ?;";
+        List<Car> list = new ArrayList<>();
+        try {
+            PreparedStatement pst = conn.prepareStatement(sql);
+            pst.setString(1,"%"+ser2+"%");
+            rs = pst.executeQuery();
+            while (rs.next()){
+                Car car1 = new Car();
+                car1.setCar_id(rs.getString("carid"));
+                System.out.println(car1.getCar_id());
+                car1.setCar_name(rs.getString("carname"));
+                car1.setCar_type(rs.getString("cartype"));
+                car1.setCar_brand(rs.getString("carbrand"));
+                car1.setCar_price(rs.getFloat("carprice"));
+                list.add(car1);
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return list;
     }
 
     @Override
