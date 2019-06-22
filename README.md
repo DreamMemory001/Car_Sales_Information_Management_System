@@ -1,5 +1,5 @@
 # Car_Sales_Information_Management_System
-This is Database Course Design
+## 数据结构课设
 ### 功能实现
 
 1. [x] 车辆信息管理
