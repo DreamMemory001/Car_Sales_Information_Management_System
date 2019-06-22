@@ -137,7 +137,7 @@
 
 <div id="container">
     <div class="search bar1">
-        <form action="Servlet_Car_Contain" method="get">
+        <form action="Servlet_Cus_Contain" method="get">
             <input type="text" placeholder="请输入您要搜索的内容..." name="ser">
             <button type="submit" ></button>
             <div align="center" class="sel">

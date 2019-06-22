@@ -89,4 +89,56 @@ public class CustomDao implements Cus_Impl {
         rs = DBUtil.excuteDML(sql,object);
         return rs;
     }
+
+    @Override
+    public List<Custom> contain(String ser1) {
+        ResultSet rs = null;
+        Connection conn = DBUtil.getConnection();
+        String sql = "select * from custom where cusname like ?;";
+        List<Custom> list = new ArrayList<>();
+        try {
+            PreparedStatement pst = conn.prepareStatement(sql);
+            pst.setString(1,"%"+ser1+"%");
+            rs = pst.executeQuery();
+            while (rs.next()){
+               Custom custom = new Custom();
+                custom.setCus_id(rs.getString("cusid"));
+                custom.setCus_name(rs.getString("cusname"));
+                custom.setCus_sex(rs.getString("cussex"));
+                custom.setCus_type(rs.getString("custype"));
+                custom.setCus_phoneNumber(rs.getString("cusphonum"));
+                list.add(custom);
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return list;
+    }
+
+    @Override
+    public List<Custom> contain2(String ser2) {
+        ResultSet rs = null;
+        Connection conn = DBUtil.getConnection();
+        String sql = "select * from custom where cusphonum like ?;";
+        List<Custom> list = new ArrayList<>();
+        try {
+            PreparedStatement pst = conn.prepareStatement(sql);
+            pst.setString(1,"%"+ser2+"%");
+            rs = pst.executeQuery();
+            while (rs.next()){
+                Custom custom = new Custom();
+                custom.setCus_id(rs.getString("cusid"));
+                custom.setCus_name(rs.getString("cusname"));
+                custom.setCus_sex(rs.getString("cussex"));
+                custom.setCus_type(rs.getString("custype"));
+                custom.setCus_phoneNumber(rs.getString("cusphonum"));
+                list.add(custom);
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return list;
+    }
 }

@@ -11,4 +11,6 @@ public interface Cus_Impl {
     int insertOne(Custom custom);
     Custom selectOne(Custom custom);
     int updateOne(Custom custom);
+    List<Custom> contain(String ser1);
+    List<Custom> contain2(String ser2);
 }
