@@ -79,4 +79,28 @@ public class SaleDao implements Sale_Impl {
 
        return rs;
     }
+
+    @Override
+    public List<Sale> conatin(String ser) {
+        ResultSet rs = null;
+        List<Sale> list = new ArrayList<>();
+        String sql = "select * from sale where saleno like ?";
+        Connection conn = DBUtil.getConnection();
+        try{
+            PreparedStatement pst = conn.prepareStatement(sql);
+//            pst.setString(1,row);
+            pst.setString(1,"%"+ser+"%");
+            rs = pst.executeQuery();
+            while(rs.next()){
+              Sale sale = new Sale();
+                sale.setSale_no(rs.getString("saleno"));
+                sale.setCar_name(rs.getString("carname"));
+                sale.setSale_num(rs.getInt("salenum"));
+                list.add(sale);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return list;
+    }
 }

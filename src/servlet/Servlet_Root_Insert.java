@@ -20,9 +20,9 @@ public class Servlet_Root_Insert extends HttpServlet {
         root.setPassword(request.getParameter("password"));
         int rs = insert.insertOne(root);
         if (rs != 0){
-          response.sendRedirect("Login.jsp");
+          response.sendRedirect("index.jsp");
         }else {
-            request.getRequestDispatcher("Login.jsp").forward(request,response);
+            request.getRequestDispatcher("index.jsp").forward(request,response);
         }
 //        PrintWriter out = response.getWriter();
 //        out.println("1111111111111111");

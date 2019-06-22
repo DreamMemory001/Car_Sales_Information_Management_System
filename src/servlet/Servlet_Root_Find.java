@@ -17,16 +17,20 @@ public class Servlet_Root_Find extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        request.setCharacterEncoding("UTF-8");
+        response.setCharacterEncoding("UTF-8");
         Root root = new Root();
         RootDao find = new RootDao();
-        root.setUsername(request.getParameter("username"));
+        String username = request.getParameter("username");
+        root.setUsername(username);
         root.setPassword(request.getParameter("password"));
         boolean is = find.selectOne(root);
         if(is){
-            response.sendRedirect("Fuction.jsp");
+            request.setAttribute("username", username);
+            request.getRequestDispatcher("Fuction.jsp").forward(request,response);
         }else{
             request.setAttribute("error","1");
-            request.getRequestDispatcher("Login.jsp").forward(request,response);
+            request.getRequestDispatcher("index.jsp").forward(request,response);
         }
     }
 }

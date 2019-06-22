@@ -1,12 +1,15 @@
-<%@ page import="java.util.List" %>
-
 <%@ page import="bean.Sale" %>
-
+<%@ page import="java.util.List" %><%--
+  Created by IntelliJ IDEA.
+  User: XuChao
+  Date: 2019/6/22
+  Time: 19:10
+  To change this template use File | Settings | File Templates.
+--%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>订单信息</title>
+    <title>查询订单信息展示页</title>
     <style type="text/css">
         #box-table-a
         {
@@ -133,22 +136,8 @@
 <body>
 
 
+
 <div id="container">
-    <div class="search bar1">
-        <form action="Servlet_Sale_Contain" method="get">
-            <input type="text" placeholder="请输入您要搜索的内容..." name="ser">
-            <button type="submit" ></button>
-            <div align="center" class="sel">
-                <label >
-                    <select name="row" >
-                        <option >订单编号</option>
-                    </select>
-                </label>
-            </div>
-
-        </form>
-    </div>
-
 
     <table id="box-table-a" summary="Employee Pay Sheet">
         <thead>

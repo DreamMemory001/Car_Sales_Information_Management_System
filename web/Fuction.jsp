@@ -49,10 +49,11 @@
     Date date  = new Date();
     SimpleDateFormat df = new SimpleDateFormat("yyy-MM-dd HH:mm:ss");
     String today = df.format(date);
+    String usrename = (String) request.getAttribute("username");
 %>
 
 <div class="time">
-    欢迎登陆您的登录，当前时间：<%=today%>
+    欢迎登陆用户<%=usrename%>的登录，当前时间：<%=today%>
 </div>
 
 <div class="container">

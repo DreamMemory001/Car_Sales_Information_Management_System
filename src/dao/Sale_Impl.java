@@ -9,4 +9,5 @@ public interface Sale_Impl {
     int deleteOne(Sale sale);
     Sale selectOne(Sale sale);
     int updateOne(Sale sale);
+    List<Sale> conatin(String ser);
 }

@@ -166,7 +166,7 @@
 
 
 
-	<a href="Login.jsp">
+	<a href="index.jsp">
 		<button type="button" class="register-tis">已经有账号？</button>
 	</a>
 
