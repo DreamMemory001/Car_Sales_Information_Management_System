@@ -14,13 +14,15 @@ import java.util.List;
 
 public class CustomDao implements Cus_Impl {
     @Override
-    public List<Custom> selectAll() {
+    public List<Custom> selectAll(int page) {
         ResultSet rs = null;
         Connection conn = DBUtil.getConnection();
-        String sql = "select * from custom;";
+        String sql = "select * from custom order by cusid desc limit ?,?;";
         List<Custom> list = new ArrayList<>();
         PreparedStatement pst = DBUtil.getPreparedStatement(conn, sql);
         try{
+            pst.setInt(1, (page - 1) * Custom.PAGE_SIZE);
+            pst.setInt(2, Custom.PAGE_SIZE);
             rs = pst.executeQuery();
             while (rs.next()){
                Custom custom = new Custom();
@@ -141,4 +143,26 @@ public class CustomDao implements Cus_Impl {
         }
         return list;
     }
+
+    @Override
+    public int CoutPage() {
+        ResultSet rs = null;
+        int count = 0 ;
+        String sql = "select count(*) from custom";
+        Connection con = DBUtil.getConnection();
+        PreparedStatement pst =DBUtil.getPreparedStatement(con,sql);
+        try{
+            rs = pst.executeQuery();
+            while (rs.next()){
+                count = rs.getInt(1);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }finally {
+            DBUtil.closeAll(rs,pst,con);
+        }
+        return count;
+
+    }
+
 }

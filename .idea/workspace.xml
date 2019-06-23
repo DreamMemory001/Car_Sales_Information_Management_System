@@ -7,27 +7,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4889d99-d3c0-41b7-967f-7d2a680400a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/servlet/sale_servlet/Servlet_Sale_Contain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/Sale_Contain.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Car_Sales_Information_Management_System_war_exploded/Car_Select.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Car_Sales_Information_Management_System_war_exploded/Car_Select.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Car_Sales_Information_Management_System_war_exploded/Cus_SelectAll.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Car_Sales_Information_Management_System_war_exploded/Cus_SelectAll.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Car_Sales_Information_Management_System_war_exploded/Fuction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Car_Sales_Information_Management_System_war_exploded/Fuction.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Car_Sales_Information_Management_System_war_exploded/Sale_SelectAll.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Car_Sales_Information_Management_System_war_exploded/Sale_SelectAll.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Car_Sales_Information_Management_System_war_exploded/WEB-INF/classes/dao/Sale_Impl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Car_Sales_Information_Management_System_war_exploded/WEB-INF/classes/dao/Sale_Impl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Car_Sales_Information_Management_System_war_exploded/WEB-INF/classes/daoImpl/SaleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Car_Sales_Information_Management_System_war_exploded/WEB-INF/classes/daoImpl/SaleDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Car_Sales_Information_Management_System_war_exploded/WEB-INF/classes/servlet/Servlet_Root_Find.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Car_Sales_Information_Management_System_war_exploded/WEB-INF/classes/servlet/Servlet_Root_Find.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Car_Sales_Information_Management_System/dao/Sale_Impl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Car_Sales_Information_Management_System/dao/Sale_Impl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Car_Sales_Information_Management_System/daoImpl/SaleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Car_Sales_Information_Management_System/daoImpl/SaleDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Car_Sales_Information_Management_System/servlet/Servlet_Root_Find.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Car_Sales_Information_Management_System/servlet/Servlet_Root_Find.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Car_Sales_Information_Management_System/servlet/Servlet_Root_Insert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Car_Sales_Information_Management_System/servlet/Servlet_Root_Insert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Car_Sales_Information_Management_System_war_exploded/Staff_SelectAll.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Car_Sales_Information_Management_System_war_exploded/Staff_SelectAll.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bean/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bean/Custom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean/Custom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bean/Sale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean/Sale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bean/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean/Staff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/Car_Impl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/Car_Impl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/Cus_Impl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/Cus_Impl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dao/Sale_Impl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/Sale_Impl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/Staff_Impl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/Staff_Impl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/daoImpl/CarDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/daoImpl/CarDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/daoImpl/CustomDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/daoImpl/CustomDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/daoImpl/SaleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/daoImpl/SaleDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servlet/Servlet_Root_Find.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/Servlet_Root_Find.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servlet/Servlet_Root_Insert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/Servlet_Root_Insert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/daoImpl/StaffDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/daoImpl/StaffDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servlet/car_servlet/Servlet_Car_SelectAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/car_servlet/Servlet_Car_SelectAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servlet/custom_servlet/Servlet_Cus_SelectAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/custom_servlet/Servlet_Cus_SelectAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servlet/sale_servlet/Servlet_Sale_SelectAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/sale_servlet/Servlet_Sale_SelectAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servlet/staff_servlet/Servlet_Staff_SelectAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/staff_servlet/Servlet_Staff_SelectAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Car_Contain.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Car_Contain.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Car_Select.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Car_Select.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Cus_Contain.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Cus_Contain.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Cus_SelectAll.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Cus_SelectAll.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/Fuction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Fuction.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Sale_Contain.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Sale_Contain.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/Sale_SelectAll.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Sale_SelectAll.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Staff_Contain.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Staff_Contain.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Staff_SelectAll.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Staff_SelectAll.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,76 +83,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/servlet/sale_servlet/Servlet_Sale_Contain.java">
+        <entry file="file://$PROJECT_DIR$/web/Cus_SelectAll.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/servlet/custom_servlet/Servlet_Cus_Contain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="42" column="9" selection-start-line="21" selection-start-column="6" selection-end-line="42" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/daoImpl/SaleDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="86" column="47" selection-start-line="86" selection-start-column="47" selection-end-line="86" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/Fuction.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="51" column="40" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
+            <state relative-caret-position="392">
+              <caret line="198" column="41" selection-start-line="198" selection-start-column="41" selection-end-line="198" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/Fuction.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="79" column="10" lean-forward="true" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="12">
+              <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/servlet/Servlet_Root_Find.java">
+        <entry file="file://$PROJECT_DIR$/web/Car_Contain.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="216">
+              <caret line="168" column="42" selection-start-line="168" selection-start-column="42" selection-end-line="168" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/servlet/staff_servlet/Servlet_Staff_Contain.java">
+        <entry file="file://$PROJECT_DIR$/web/Cus_Contain.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="22" column="46" selection-start-line="21" selection-start-column="6" selection-end-line="22" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="362">
+              <caret line="177" column="42" selection-start-line="177" selection-start-column="42" selection-end-line="177" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/Staff_Contain.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="172" column="48" selection-start-line="172" selection-start-column="48" selection-end-line="172" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -151,8 +139,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/Sale_Contain.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="175" selection-start-line="175" selection-end-line="175" />
+            <state relative-caret-position="461">
+              <caret line="175" column="30" lean-forward="true" selection-start-line="175" selection-start-column="30" selection-end-line="175" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -160,8 +148,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/Sale_SelectAll.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="137" column="27" selection-start-line="137" selection-start-column="27" selection-end-line="137" selection-end-column="27" />
+            <state relative-caret-position="364">
+              <caret line="185" column="41" selection-start-line="185" selection-start-column="41" selection-end-line="185" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -169,11 +157,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/daoImpl/StaffDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="118" column="20" selection-start-line="97" selection-start-column="7" selection-end-line="118" selection-end-column="20" />
+            <state relative-caret-position="244">
+              <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/Car_Select.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="331">
+              <caret line="198" column="14" lean-forward="true" selection-start-line="198" selection-start-column="14" selection-end-line="198" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -204,16 +201,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/servlet/sale_servlet/Servlet_Sale_SelectAll.java" />
-        <option value="$PROJECT_DIR$/src/servlet/car_servlet/Servlet_Buy_Car.java" />
-        <option value="$PROJECT_DIR$/web/Car_Buy.jsp" />
-        <option value="$PROJECT_DIR$/web/delete_sale_succeed.jsp" />
-        <option value="$PROJECT_DIR$/src/servlet/sale_servlet/Servlet_Sale_DeleteOne.java" />
-        <option value="$PROJECT_DIR$/web/Update_Sale.jsp" />
-        <option value="$PROJECT_DIR$/web/Sale_Do_Update.jsp" />
-        <option value="$PROJECT_DIR$/src/servlet/staff_servlet/Servlet_Staff_SelectAll.java" />
-        <option value="$PROJECT_DIR$/src/servlet/staff_servlet/Servlet_Staff_DeleteOne.java" />
-        <option value="$PROJECT_DIR$/web/delete_staff_succeed.jsp" />
         <option value="$PROJECT_DIR$/web/Car_Insert.jsp" />
         <option value="$PROJECT_DIR$/web/Staff_Insert.jsp" />
         <option value="$PROJECT_DIR$/web/Staff_Insert_Succeed.jsp" />
@@ -225,7 +212,6 @@
         <option value="$PROJECT_DIR$/src/servlet/sale_servlet/Servlet_Sale_SelectOne.java" />
         <option value="$PROJECT_DIR$/web/Sale_Update.jsp" />
         <option value="$PROJECT_DIR$/src/servlet/sale_servlet/Servlet_Sale_UpdateOne.java" />
-        <option value="$PROJECT_DIR$/src/servlet/custom_servlet/Servlet_Cus_SelectAll.java" />
         <option value="$PROJECT_DIR$/web/delete_cus_succeed.jsp" />
         <option value="$PROJECT_DIR$/src/servlet/custom_servlet/Servlet_Cus_Insert.java" />
         <option value="$PROJECT_DIR$/web/Cus_Insert_Succeed.jsp" />
@@ -235,26 +221,37 @@
         <option value="$PROJECT_DIR$/web/Cus_Update.jsp" />
         <option value="$PROJECT_DIR$/web/Cus_Do_Update.jsp" />
         <option value="$PROJECT_DIR$/src/servlet/custom_servlet/Servlet_Cus_UpdateOne.java" />
-        <option value="$PROJECT_DIR$/web/Staff_Contain.jsp" />
-        <option value="$PROJECT_DIR$/src/dao/Staff_Impl.java" />
-        <option value="$PROJECT_DIR$/src/daoImpl/StaffDao.java" />
         <option value="$PROJECT_DIR$/src/servlet/staff_servlet/Servlet_Staff_Contain.java" />
-        <option value="$PROJECT_DIR$/web/Staff_SelectAll.jsp" />
-        <option value="$PROJECT_DIR$/src/dao/Car_Impl.java" />
-        <option value="$PROJECT_DIR$/src/daoImpl/CarDao.java" />
         <option value="$PROJECT_DIR$/src/servlet/car_servlet/Servlet_Car_Contain.java" />
-        <option value="$PROJECT_DIR$/web/Cus_SelectAll.jsp" />
-        <option value="$PROJECT_DIR$/src/dao/Cus_Impl.java" />
-        <option value="$PROJECT_DIR$/src/daoImpl/CustomDao.java" />
-        <option value="$PROJECT_DIR$/web/Cus_Contain.jsp" />
         <option value="$PROJECT_DIR$/src/servlet/custom_servlet/Servlet_Cus_Contain.java" />
-        <option value="$PROJECT_DIR$/src/dao/Sale_Impl.java" />
-        <option value="$PROJECT_DIR$/src/daoImpl/SaleDao.java" />
         <option value="$PROJECT_DIR$/src/servlet/sale_servlet/Servlet_Sale_Contain.java" />
-        <option value="$PROJECT_DIR$/web/Sale_Contain.jsp" />
-        <option value="$PROJECT_DIR$/web/Sale_SelectAll.jsp" />
-        <option value="$PROJECT_DIR$/web/Fuction.jsp" />
         <option value="$PROJECT_DIR$/src/servlet/Servlet_Root_Find.java" />
+        <option value="$PROJECT_DIR$/web/Fuction.jsp" />
+        <option value="$PROJECT_DIR$/src/servlet/car_servlet/Servlet_Car_Page.java" />
+        <option value="$PROJECT_DIR$/src/bean/Car.java" />
+        <option value="$PROJECT_DIR$/src/dao/Car_Impl.java" />
+        <option value="$PROJECT_DIR$/src/servlet/car_servlet/Servlet_Car_SelectAll.java" />
+        <option value="$PROJECT_DIR$/src/daoImpl/CarDao.java" />
+        <option value="$PROJECT_DIR$/src/dao/Cus_Impl.java" />
+        <option value="$PROJECT_DIR$/src/dao/Sale_Impl.java" />
+        <option value="$PROJECT_DIR$/src/dao/Staff_Impl.java" />
+        <option value="$PROJECT_DIR$/src/bean/Custom.java" />
+        <option value="$PROJECT_DIR$/src/bean/Sale.java" />
+        <option value="$PROJECT_DIR$/src/bean/Staff.java" />
+        <option value="$PROJECT_DIR$/src/daoImpl/CustomDao.java" />
+        <option value="$PROJECT_DIR$/src/daoImpl/SaleDao.java" />
+        <option value="$PROJECT_DIR$/src/servlet/custom_servlet/Servlet_Cus_SelectAll.java" />
+        <option value="$PROJECT_DIR$/src/servlet/staff_servlet/Servlet_Staff_SelectAll.java" />
+        <option value="$PROJECT_DIR$/src/servlet/sale_servlet/Servlet_Sale_SelectAll.java" />
+        <option value="$PROJECT_DIR$/web/Car_Select.jsp" />
+        <option value="$PROJECT_DIR$/web/Staff_SelectAll.jsp" />
+        <option value="$PROJECT_DIR$/web/Sale_SelectAll.jsp" />
+        <option value="$PROJECT_DIR$/web/Cus_SelectAll.jsp" />
+        <option value="$PROJECT_DIR$/web/Car_Contain.jsp" />
+        <option value="$PROJECT_DIR$/web/Cus_Contain.jsp" />
+        <option value="$PROJECT_DIR$/web/Sale_Contain.jsp" />
+        <option value="$PROJECT_DIR$/web/Staff_Contain.jsp" />
+        <option value="$PROJECT_DIR$/src/daoImpl/StaffDao.java" />
       </list>
     </option>
   </component>
@@ -272,16 +269,17 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="183" />
-    <option name="y" value="25" />
-    <option name="width" value="718" />
-    <option name="height" value="1049" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -294,6 +292,12 @@
               <item name="Car_Sales_Information_Management_System" type="b2602c69:ProjectViewProjectNode" />
               <item name="Car_Sales_Information_Management_System" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Car_Sales_Information_Management_System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Car_Sales_Information_Management_System" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Car_Sales_Information_Management_System" type="b2602c69:ProjectViewProjectNode" />
@@ -350,7 +354,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -358,7 +361,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561203655651" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561297335463" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -520,11 +523,12 @@
       <workItem from="1561079504687" duration="25912000" />
       <workItem from="1561109562114" duration="664000" />
       <workItem from="1561161888218" duration="13743000" />
+      <workItem from="1561291951347" duration="5018000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90341000" />
+    <option name="totallyTimeSpent" value="95359000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -537,8 +541,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.9036827" visible="true" weight="0.22184986" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.9320113" visible="true" weight="0.22050938" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -546,11 +551,10 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Image Layers" order="7" />
-      <window_info id="Web" order="8" sideWeight="0.096317284" side_tool="true" visible="true" weight="0.22184986" />
-      <window_info anchor="bottom" id="Duplicate detector" weight="0.39093485" />
+      <window_info id="Web" order="8" sideWeight="0.06798867" side_tool="true" visible="true" weight="0.22050938" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.11473088" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.46600565" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -565,14 +569,15 @@
       <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="bottom" id="JRebel Executor" order="15" />
       <window_info anchor="bottom" id="JRebel Console" order="16" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="17" weight="0.3281471" />
+      <window_info anchor="bottom" id="Messages" order="17" weight="0.3275488" />
+      <window_info anchor="bottom" id="Duplicate detector" order="18" weight="0.39093485" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" weight="0.32995737" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.16353887" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.056300268" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
@@ -620,117 +625,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/servlet/car_servlet/Servlet_Car_UpdateOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/sale_servlet/Servlet_Sale_SelectOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/sale_servlet/Servlet_Sale_UpdateOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bean/Custom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-33">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/custom_servlet/Servlet_Cus_SelectAll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="22" column="49" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="22" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/delete_sale_succeed.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="24" column="6" lean-forward="true" selection-start-line="13" selection-end-line="24" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/daoImpl/RootDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/sale_servlet/Servlet_Sale_DeleteOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/custom_servlet/Servlet_Cus_Insert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/delete_cus_succeed.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/custom_servlet/Servlet_Cus_DeleteOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/staff_servlet/Servlet_Staff_DeleteOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/car_servlet/Servlet_Car_SelectOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/staff_servlet/Servlet_Staff_SelectOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="24" column="83" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="24" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/custom_servlet/Servlet_Cus_SelectOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/Staff_Update.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="295">
@@ -790,13 +684,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/Car_Insert.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="23" selection-start-line="23" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/Sale_Update.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
@@ -811,64 +698,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/Staff_Contain.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="165" lean-forward="true" selection-start-line="165" selection-end-line="165" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Car_Select.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="142" column="35" selection-start-line="142" selection-start-column="35" selection-end-line="142" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/delete_succeed.jsp">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/Car_Impl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/servlet/car_servlet/Servlet_Car_Contain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/Cus_Impl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/daoImpl/CarDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="150" column="20" lean-forward="true" selection-start-line="128" selection-start-column="6" selection-end-line="150" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/daoImpl/CustomDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="119" column="40" lean-forward="true" selection-start-line="119" selection-start-column="40" selection-end-line="119" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -879,20 +715,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/Cus_SelectAll.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="137" selection-start-line="137" selection-end-line="137" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Cus_Contain.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="877">
-          <caret line="137" column="15" selection-start-line="137" selection-start-column="15" selection-end-line="137" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/Staff_Insert.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="825">
@@ -900,34 +722,144 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/Staff_SelectAll.jsp">
+    <entry file="file://$PROJECT_DIR$/src/servlet/sale_servlet/Servlet_Sale_Contain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="150" column="24" lean-forward="true" selection-start-line="150" selection-start-column="24" selection-end-line="150" selection-end-column="24" />
+        <state relative-caret-position="858">
+          <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/Staff_Impl.java">
+    <entry file="file://$PROJECT_DIR$/src/servlet/custom_servlet/Servlet_Cus_Contain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        <state relative-caret-position="1056">
+          <caret line="42" column="9" selection-start-line="21" selection-start-column="6" selection-end-line="42" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/Sale_Impl.java">
+    <entry file="file://$PROJECT_DIR$/src/servlet/Servlet_Root_Find.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        <state relative-caret-position="858">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/daoImpl/StaffDao.java">
+    <entry file="file://$PROJECT_DIR$/src/servlet/staff_servlet/Servlet_Staff_Contain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="118" column="20" selection-start-line="97" selection-start-column="7" selection-end-line="118" selection-end-column="20" />
+        <state relative-caret-position="396">
+          <caret line="22" column="46" selection-start-line="21" selection-start-column="6" selection-end-line="22" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/car_servlet/Servlet_Car_Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Car_Update.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/Car_Impl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/Cus_Impl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/Root_Impl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/Sale_Impl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/Staff_Impl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="42" />
+          <folding>
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean/Custom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean/Root.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean/Sale.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean/Staff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/daoImpl/RootDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/daoImpl/CustomDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="24" column="44" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="24" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -936,49 +868,131 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/daoImpl/SaleDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="86" column="47" selection-start-line="86" selection-start-column="47" selection-end-line="86" selection-end-column="47" />
+        <state relative-caret-position="231">
+          <caret line="19" column="64" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/custom_servlet/Servlet_Cus_Contain.java">
+    <entry file="file://$PROJECT_DIR$/src/daoImpl/CarDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="42" column="9" selection-start-line="21" selection-start-column="6" selection-end-line="42" selection-end-column="9" />
+        <state relative-caret-position="76">
+          <caret line="21" column="63" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/car_servlet/Servlet_Car_SelectAll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="50" column="51" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="50" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/custom_servlet/Servlet_Cus_SelectAll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="51" column="51" lean-forward="true" selection-start-line="34" selection-start-column="6" selection-end-line="51" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/sale_servlet/Servlet_Sale_SelectAll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="47" column="49" selection-start-line="47" selection-start-column="49" selection-end-line="47" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/staff_servlet/Servlet_Staff_SelectAll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="48" column="78" lean-forward="true" selection-start-line="48" selection-start-column="78" selection-end-line="48" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Car_Do_Update.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-444" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Car_Insert.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="23" selection-start-line="23" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Staff_SelectAll.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="206" column="41" selection-start-line="206" selection-start-column="41" selection-end-line="206" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/Sale_SelectAll.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="137" column="27" selection-start-line="137" selection-start-column="27" selection-end-line="137" selection-end-column="27" />
+        <state relative-caret-position="364">
+          <caret line="185" column="41" selection-start-line="185" selection-start-column="41" selection-end-line="185" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/sale_servlet/Servlet_Sale_Contain.java">
+    <entry file="file://$PROJECT_DIR$/web/Cus_SelectAll.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
+        <state relative-caret-position="392">
+          <caret line="198" column="41" selection-start-line="198" selection-start-column="41" selection-end-line="198" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Car_Select.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="198" column="14" lean-forward="true" selection-start-line="198" selection-start-column="14" selection-end-line="198" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Car_Contain.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="168" column="42" selection-start-line="168" selection-start-column="42" selection-end-line="168" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Cus_Contain.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="177" column="42" selection-start-line="177" selection-start-column="42" selection-end-line="177" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/Sale_Contain.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="175" selection-start-line="175" selection-end-line="175" />
+        <state relative-caret-position="461">
+          <caret line="175" column="30" lean-forward="true" selection-start-line="175" selection-start-column="30" selection-end-line="175" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/staff_servlet/Servlet_Staff_Contain.java">
+    <entry file="file://$PROJECT_DIR$/web/Staff_Contain.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="22" column="46" selection-start-line="21" selection-start-column="6" selection-end-line="22" selection-end-column="46" />
+        <state relative-caret-position="75">
+          <caret line="172" column="48" selection-start-line="172" selection-start-column="48" selection-end-line="172" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12">
+          <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/daoImpl/StaffDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -987,25 +1001,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/Fuction.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="51" column="40" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/Servlet_Root_Find.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="80">
+          <caret line="79" column="10" lean-forward="true" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
         </state>
       </provider>
     </entry>

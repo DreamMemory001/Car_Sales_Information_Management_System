@@ -163,6 +163,13 @@
     <%
         }
     %>
+
+    <tr>
+        <td align="center" colspan="8">
+            <a href="Servlet_Car_SelectAll">返回</a>
+
+        </td>
+    </tr>
 </table>
 
 </div>

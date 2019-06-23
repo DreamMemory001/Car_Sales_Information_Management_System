@@ -16,6 +16,7 @@ public class Sale {
     private String car_name;
     private int sale_num;
     private String sale_no;
+    public static final int PAGE_SIZE = 3;
 
     public String getCar_name() {
         return car_name;

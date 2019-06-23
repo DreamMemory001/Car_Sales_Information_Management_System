@@ -17,6 +17,7 @@ public class Staff {
     private String sta_adress;
     private String sta_phoneNumber;
     private String sta_id;
+    public static final int PAGE_SIZE = 3;
 
     public String getSta_name() {
         return sta_name;

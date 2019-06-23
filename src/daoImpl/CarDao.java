@@ -16,13 +16,15 @@ import java.util.List;
 public class CarDao implements Car_Impl {
 
     @Override
-    public List<Car> selectALL() {
+    public List<Car> selectALL(int page) {
         ResultSet rs = null;
         Connection conn = DBUtil.getConnection();
-        String sql = "select * from car;";
+        String sql = "select * from car order by carid desc limit ?,?;";
         List<Car> list = new ArrayList<>();
         PreparedStatement pst = DBUtil.getPreparedStatement(conn, sql);
         try{
+            pst.setInt(1, (page - 1) * Car.PAGE_SIZE);
+            pst.setInt(2, Car.PAGE_SIZE);
             rs = pst.executeQuery();
             while (rs.next()){
                 Car car1 = new Car();
@@ -158,6 +160,27 @@ public class CarDao implements Car_Impl {
         Object [] obj = {sale.getSale_no(),sale.getCar_name(),sale.getSale_num()};
         rs = DBUtil.excuteDML(sql, obj);
         return rs;
+    }
+
+    @Override
+    public int CoutPage() {
+        ResultSet rs = null;
+        int count = 0 ;
+        String sql = "select count(*) from car";
+        Connection con = DBUtil.getConnection();
+        PreparedStatement pst =DBUtil.getPreparedStatement(con,sql);
+        try{
+            rs = pst.executeQuery();
+            while (rs.next()){
+                count = rs.getInt(1);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }finally {
+            DBUtil.closeAll(rs,pst,con);
+        }
+        return count;
+
     }
 
 

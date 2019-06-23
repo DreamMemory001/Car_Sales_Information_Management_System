@@ -173,6 +173,12 @@
     <%
         }
     %>
+    <tr>
+        <td align="center" colspan="7">
+            <a href="Servlet_Cus_SelectAll">返回</a>
+
+        </td>
+    </tr>
 </table>
 </div>
 </body>

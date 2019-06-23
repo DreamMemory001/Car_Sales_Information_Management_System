@@ -181,6 +181,19 @@
         <%
             }
         %>
+
+        <tr>
+            <td align="center" colspan="5">
+                <%=request.getAttribute("bar")
+                %>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" colspan="8">
+                <a href="Fuction.jsp">返回</a>
+
+            </td>
+        </tr>
     </table>
 
 </div>

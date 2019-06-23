@@ -16,13 +16,15 @@ import java.util.List;
 
 public class StaffDao implements Staff_Impl {
     @Override
-    public List<Staff> selectAll() {
+    public List<Staff> selectAll(int page) {
         ResultSet rs = null;
         Connection conn = DBUtil.getConnection();
-        String sql = "select * from staff;";
+        String sql = "select * from staff order by staid desc limit ?,?;";
         List<Staff> list = new ArrayList<>();
         PreparedStatement pst = DBUtil.getPreparedStatement(conn, sql);
         try{
+            pst.setInt(1, (page - 1) * Staff.PAGE_SIZE);
+            pst.setInt(2, Staff.PAGE_SIZE);
             rs = pst.executeQuery();
             while (rs.next()){
              Staff staff = new Staff();
@@ -143,6 +145,26 @@ public class StaffDao implements Staff_Impl {
             e.printStackTrace();
         }
         return list;
+    }
+
+    @Override
+    public int CoutPage() {
+        ResultSet rs = null;
+        int count = 0 ;
+        String sql = "select count(*) from staff";
+        Connection con = DBUtil.getConnection();
+        PreparedStatement pst =DBUtil.getPreparedStatement(con,sql);
+        try{
+            rs = pst.executeQuery();
+            while (rs.next()){
+                count = rs.getInt(1);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }finally {
+            DBUtil.closeAll(rs,pst,con);
+        }
+        return count;
     }
 
 

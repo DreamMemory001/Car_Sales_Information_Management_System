@@ -12,7 +12,7 @@
         font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
         font-size: 12px;
         margin: 45px;
-        width: 480px;
+        width: 600px;
         text-align: left;
         border-collapse: collapse;
     }
@@ -48,7 +48,7 @@
     }
 
     #container {
-        width: 500px;
+        width: 620px;
         height: 820px;
         margin: 0 auto;
     }
@@ -131,7 +131,6 @@
 </head>
 <body>
 
-
 <div id="container">
     <div class="search bar1">
         <form action="Servlet_Car_Contain" method="get">
@@ -165,7 +164,7 @@
             <th scope="col">汽车名称</th>
             <th scope="col">汽车类型</th>
             <th scope="col">汽车品牌</th>
-            <th scope="col">汽车价格</th>
+            <th scope="col">汽车价格(/万元)</th>
             <th scope="col">操作一</th>
             <th scope="col">操作二</th>
             <th scope="col">操作三</th>
@@ -193,6 +192,19 @@
     <%
         }
     %>
+
+    <tr>
+        <td align="center" colspan="8">
+            <%=request.getAttribute("bar")
+            %>
+        </td>
+    </tr>
+    <tr>
+        <td align="center" colspan="8">
+            <a href="Fuction.jsp">返回</a>
+
+        </td>
+    </tr>
 </table>
 
 </div>

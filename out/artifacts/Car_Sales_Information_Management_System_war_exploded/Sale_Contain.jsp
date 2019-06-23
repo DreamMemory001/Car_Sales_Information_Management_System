@@ -170,6 +170,13 @@
         <%
             }
         %>
+
+        <tr>
+            <td align="center" colspan="5">
+                <a href="Servlet_Sale_SelectAll">返回</a>
+
+            </td>
+        </tr>
     </table>
 
 </div>

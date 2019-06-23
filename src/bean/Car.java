@@ -19,6 +19,7 @@ public class Car {
     private float car_price;
     private String car_brand;
     private String car_id;
+    public static final int PAGE_SIZE = 4;
 
 
     public String getCar_type() {

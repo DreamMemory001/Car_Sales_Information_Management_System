@@ -14,13 +14,15 @@ import java.util.List;
 
 public class SaleDao implements Sale_Impl {
     @Override
-    public List<Sale> selectAll() {
+    public List<Sale> selectAll(int page) {
         ResultSet rs = null;
         Connection conn = DBUtil.getConnection();
-        String sql = "select * from sale;";
+        String sql = "select * from sale order by saleno desc limit ?,?;";
         List<Sale> list = new ArrayList<>();
         PreparedStatement pst = DBUtil.getPreparedStatement(conn, sql);
         try{
+            pst.setInt(1, (page - 1) * Sale.PAGE_SIZE);
+            pst.setInt(2,Sale.PAGE_SIZE);
             rs = pst.executeQuery();
             while (rs.next()){
                Sale sale = new Sale();
@@ -102,5 +104,25 @@ public class SaleDao implements Sale_Impl {
             e.printStackTrace();
         }
         return list;
+    }
+
+    @Override
+    public int CoutPage() {
+        ResultSet rs = null;
+        int count = 0 ;
+        String sql = "select count(*) from sale;";
+        Connection con = DBUtil.getConnection();
+        PreparedStatement pst =DBUtil.getPreparedStatement(con,sql);
+        try{
+            rs = pst.executeQuery();
+            while (rs.next()){
+                count = rs.getInt(1);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }finally {
+            DBUtil.closeAll(rs,pst,con);
+        }
+        return count;
     }
 }

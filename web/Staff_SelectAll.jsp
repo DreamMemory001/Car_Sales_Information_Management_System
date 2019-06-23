@@ -17,7 +17,7 @@
             font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
             font-size: 12px;
             margin: 45px;
-            width: 480px;
+            width: 600px;
             text-align: left;
             border-collapse: collapse;
         }
@@ -53,7 +53,7 @@
         }
 
         #container {
-            width: 500px;
+            width: 600px;
             height: 820px;
             margin: 0 auto;
         }
@@ -196,6 +196,19 @@
         <%
             }
         %>
+
+        <tr>
+            <td align="center" colspan="8">
+                <%=request.getAttribute("bar")
+                %>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" colspan="7">
+                <a href="Fuction.jsp">返回</a>
+
+            </td>
+        </tr>
     </table>
 
 </div>

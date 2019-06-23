@@ -54,9 +54,10 @@
 
 <div class="time">
     欢迎登陆用户<%=usrename%>的登录，当前时间：<%=today%>
+    <a href="index.jsp">注销</a>
 </div>
 
-<div class="container">
+<div class="container" align="center">
 
     <div>
         <form action="Servlet_Car_SelectAll" method="get" >

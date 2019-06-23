@@ -19,6 +19,7 @@ public class Custom {
     private String cus_phoneNumber;
     private String cus_sex;
     private String cus_id;
+    public static final int PAGE_SIZE = 3;
 
 
     public String getCus_type() {
