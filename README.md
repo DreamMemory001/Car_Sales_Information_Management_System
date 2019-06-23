@@ -1,5 +1,5 @@
 # Car_Sales_Information_Management_System
-## 数据结构课设
+## 数据库课设
 ### 功能实现
 
 1. [x] 车辆信息管理
