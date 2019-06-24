@@ -34,6 +34,7 @@
         }
         .time{
             font-size: 25px;
+
         }
 
 
@@ -54,7 +55,7 @@
 
 <div class="time">
     欢迎登陆用户<%=usrename%>的登录，当前时间：<%=today%>
-    <a href="index.jsp">注销</a>
+    <a href="index.jsp" >注销</a>
 </div>
 
 <div class="container" align="center">
@@ -90,3 +91,4 @@
 
 </body>
 </html>
+
